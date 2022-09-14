@@ -1,7 +1,6 @@
 # My posh theme
 
 <p>This is my personal oh-my-posh theme config. If you wanna try it, feel free to do so.</p>
-<p>This is how it looks</p>
 
 <p><strong>Terminal Emulator:</strong> Alacritty</p>
 <p><strong>Font:</strong> monospace</p>
