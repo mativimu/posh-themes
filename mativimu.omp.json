@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#c89c62",
+          "style": "plain",
+          "template": "<#78c0bc><b>\uf2c0 ~</b></><#d3d1d1><b> {{ .UserName }}</b></><b>@{{ .HostName }}:</b>",
+          "type": "session"
+        },
+        {
+          "foreground": "#78c0bc",
+          "style": "powerline",
+          "template": "<#768ebe><b> virtualenv </b></>{{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
+          "type": "python"
+        },
+        {
+          "foreground": "#5f7298",
+          "properties": {
+            "style": "agnoster_full"
+          },
+          "style": "plain",
+          "template": " <b>{{ .Path }}</b> ",
+          "type": "path"
+        },
+        {
+          "foreground": "#7FD5EA",
+          "style": "powerline",
+          "template": "({{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}) ",
+          "type": "go"
+        },
+        {
+          "foreground": "#c89c62",
+          "properties": {
+            "branch_icon": ""
+          },
+          "style": "plain",
+          "template": " <#6ba4a1><b>\ue725 </b></><b>{{ .HEAD }}</b> ",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
