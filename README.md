@@ -1,6 +1,6 @@
 # My posh themes
 
-<h1>mativimu.omp</h1>
+<h3>mativimu.omp</h3>
 <p>This is my personal oh-my-posh theme config. If you wanna try it, feel free to do so.</p>
 
 <p><strong>Terminal Emulator:</strong> Alacritty</p>
