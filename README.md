@@ -1,6 +1,6 @@
 # My posh themes
 
-<h3>mativimu.omp</h3>
+<h4>mativimu.omp</h4>
 <p>This is my personal oh-my-posh theme config. If you wanna try it, feel free to do so.</p>
 
 <p><strong>Font:</strong> monospace<br>
