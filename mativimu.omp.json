@@ -13,7 +13,7 @@
         {
           "foreground": "#78c0bc",
           "style": "powerline",
-          "template": "<#768ebe><b> virtualenv </b></>{{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
+          "template": "<b> {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}:</b>",
           "type": "python"
         },
         {
